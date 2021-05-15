@@ -1,5 +1,5 @@
  
-def zoom(image: np.ndarray, factor: float):
+def zoom(image: np.ndarray, factor: float1):
     """
     resize keeping aspect ratio
     """
