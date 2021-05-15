@@ -29,4 +29,4 @@ def pad(image,
     if padded.shape[-1] == 1:
         return padded.squeeze()
     else:
-        return padded
+        return padded ** 2 +6
