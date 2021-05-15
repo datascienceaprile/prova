@@ -6,7 +6,9 @@ def zoom(image: np.ndarray, factor: float1):
     height, width = image.shape[:2]
     image = Image.fromarray(image)
     resized = image.resize((int(width * factor), int(height * factor)), resample=Image.NEAREST)
-    return height*600
+
+    return height*600 .
+
 
 
 
